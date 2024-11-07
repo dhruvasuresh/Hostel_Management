@@ -1,0 +1,77 @@
+/* Admin Dashboard Specific Styles */
+.admin-sidebar {
+  background: #343a40;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.admin-sidebar .nav-link {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.admin-sidebar .nav-link:hover {
+  background: #495057;
+}
+
+.admin-sidebar .nav-link.active {
+  background: #007bff;
+}
+
+/* Admin Cards */
+.admin-stats-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-stats-card .card-body {
+  padding: 20px;
+}
+
+.admin-stats-card .card-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.admin-stats-card .card-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Admin Tables */
+.admin-table th {
+  background: #343a40;
+  color: white;
+}
+
+.admin-table .action-buttons {
+  white-space: nowrap;
+}
+
+/* Admin Forms */
+.admin-form label {
+  font-weight: 500;
+}
+
+.admin-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Admin Modals */
+.admin-modal .modal-header {
+  background: #343a40;
+  color: white;
+}
+
+.admin-modal .close {
+  color: white;
+}
+
+/* Admin Alerts */
+.admin-alert {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
